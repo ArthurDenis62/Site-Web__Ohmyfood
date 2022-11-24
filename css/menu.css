@@ -59,7 +59,7 @@ body, html {
 
 .header__previous {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 2em;
     width: 2em;
     height: 2em;
@@ -258,6 +258,10 @@ body, html {
 
 .time-8 {
     animation-delay: 0.8s;
+}
+
+.time-9 {
+    animation-delay: 0.9s;
 }
 
 .wrapBoutton {
