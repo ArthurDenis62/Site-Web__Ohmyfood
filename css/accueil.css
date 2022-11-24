@@ -381,7 +381,7 @@ li.fonctionnement__step:hover {
 .footer .container {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 2em;
 }
 .footer__logo {
   color: white;
@@ -407,6 +407,7 @@ li.fonctionnement__step:hover {
 .footer__lien {
   color: white;
   text-decoration: none;
+  font-size: 1.2em;
 }
 .footer__lien:hover {
   text-decoration: underline;
