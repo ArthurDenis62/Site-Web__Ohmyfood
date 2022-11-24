@@ -134,10 +134,12 @@ body, html {
 }
 .a-propos__titre {
   margin: 0;
+  font-size: 2.4em;
 }
 .a-propos__soustitre {
   font-weight: 300;
   margin: 2em 0;
+  font-size: 1.2em;
 }
 .a-propos__boutton {
   border: 0;
@@ -167,7 +169,6 @@ body, html {
 .fonctionnement {
   padding: 2em 1em;
 }
-
 .fonctionnement__title {
   margin-bottom: 20px;
 }
@@ -191,6 +192,8 @@ body, html {
   display: flex;
   align-items: center;
   position: relative;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 @media (min-width: 64em) {
   .fonctionnement__step {
@@ -227,11 +230,9 @@ body, html {
   margin-right: 1em;
   color: #7e7e7e;
 }
-
 .fonctionnement__step:hover .fonctionnement__icon {
   color: #9356DC;
 }
-
 li.fonctionnement__step:hover {
   background-color: rgb(244, 238, 254);
 }
@@ -243,30 +244,26 @@ li.fonctionnement__step:hover {
   background-color: #f6f6f6;
   padding: 2em 1em;
 }
-
 .container {
   max-width: 1350px;
   margin: auto;
   position: relative;
 }
-
 .restaurants__titre {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 2em;
 }
-
 .cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2em;
   row-gap: 2em;
 }
-
 @media (min-width: 64em) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 .card {
   background-color: white;
   border-radius: 1em;
@@ -277,7 +274,6 @@ li.fonctionnement__step:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   transition: 0.2s;
 }
-
 .card__img {
   height: 12em;
   width: 100%;
@@ -286,7 +282,6 @@ li.fonctionnement__step:hover {
   box-shadow: none;
   object-fit: cover;
 }
-
 .card__badge {
   background-color: #99E2D0;
   color: #1b6150;
@@ -296,27 +291,25 @@ li.fonctionnement__step:hover {
   top: 1em;
   right: 0.75em;
 }
-
 .card__footer {
   padding: 1em;
   position: relative;
   display: flex;
   align-items: center;
 }
-
 .card__content {
   flex: 1;
 }
-
 .card__titre {
   margin: 0;
   margin-bottom: 0.25em;
+  font-size: 1.6em;
+  font-weight: bold;
 }
-
 .card__subtitre {
   margin: 0;
+  font-size: 1.5em;
 }
-
 .card__boutton {
   height: 2em;
   width: 2em;
@@ -327,17 +320,14 @@ li.fonctionnement__step:hover {
   align-items: center;
   justify-content: center;
 }
-
 .card:hover {
   -ms-transform: scale(1.019);
   -webkit-transform: scale(1.019);
   transform: scale(1.015);
 }
-
 .card:active {
   box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.25);
 }
-
 .menu__boutton {
   height: 2em;
   width: 2em;
@@ -351,11 +341,9 @@ li.fonctionnement__step:hover {
   position: relative;
   background-color: black;
 }
-
 .menu__boutton:hover::before {
   opacity: 1;
 }
-
 .menu__boutton::before {
   opacity: 0;
   transition: 0.5s;
@@ -367,11 +355,9 @@ li.fonctionnement__step:hover {
   width: 100%;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
 }
-
 .menu__boutton:hover .menu__like--noBg {
   opacity: 0;
 }
-
 .menu__like {
   transition-duration: 0.25s;
   background-color: #f6f6f6;
@@ -385,54 +371,46 @@ li.fonctionnement__step:hover {
   justify-content: center;
   mix-blend-mode: lighten;
 }
+
 /********************************
 *             Footer            *
 ********************************/
 .footer {
   background-color: #353535;
 }
-
 .footer .container {
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
-
 .footer__logo {
   color: white;
   font-family: "Shrikhand", "cursive";
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-bottom: 1em;
 }
-
 .footer__liste {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .footer__liste--element {
   margin: 0.5em 0;
 }
-
 .footer__liste--element:first-child {
   margin-top: 0;
 }
-
 .footer__liste--element:last-child {
   margin-bottom: 0;
 }
-
 .footer__lien {
   color: white;
   text-decoration: none;
 }
-
 .footer__lien:hover {
   text-decoration: underline;
 }
-
 .footer__icon {
   width: 1.2em;
   margin-right: 0.5em;
