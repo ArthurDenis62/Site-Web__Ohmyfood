@@ -245,9 +245,14 @@ li.fonctionnement__step:hover {
   padding: 2em 1em;
 }
 .container {
-  max-width: 1350px;
+  max-width: 1550px;
   margin: auto;
   position: relative;
+}
+@media (min-width: 64em) {
+  .container {
+    max-width: 90%;
+  }
 }
 .restaurants__titre {
   margin-bottom: 30px;
