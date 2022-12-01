@@ -179,11 +179,6 @@ body, html {
   list-style: none;
   counter-reset: compteListe;
 }
-@media (min-width: 64em) {
-  .fonctionnement__steps {
-    display: flex;
-  }
-}
 .fonctionnement__step {
   padding: 1.5em;
   margin: 1em 0 1em 0.75em;
@@ -195,16 +190,6 @@ body, html {
   position: relative;
   font-size: 1.3em;
   font-weight: bold;
-}
-@media (min-width: 64em) {
-  .fonctionnement__step {
-    flex: 1;
-    margin: 0;
-    margin-left: 2em;
-  }
-  .fonctionnement__step:first-child {
-    margin-left: 0.75em;
-  }
 }
 .fonctionnement__step:first-child {
   margin-top: 0;
@@ -250,11 +235,6 @@ li.fonctionnement__step:hover {
   margin: auto;
   position: relative;
 }
-@media (min-width: 64em) {
-  .container {
-    max-width: 90%;
-  }
-}
 .restaurants__titre {
   margin-bottom: 30px;
   font-size: 2em;
@@ -264,11 +244,6 @@ li.fonctionnement__step:hover {
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2em;
   row-gap: 2em;
-}
-@media (min-width: 64em) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 .card {
   background-color: white;
@@ -420,4 +395,24 @@ li.fonctionnement__step:hover {
 .footer__icon {
   width: 1.2em;
   margin-right: 0.5em;
+}
+
+@media (min-width: 64em) {
+  .container {
+    max-width: 90%;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fonctionnement__steps {
+    display: flex;
+  }
+  .fonctionnement__step {
+    flex: 1;
+    margin: 0;
+    margin-left: 2em;
+  }
+  .fonctionnement__step:first-child {
+    margin-left: 0.75em;
+  }
 }
