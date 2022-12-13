@@ -78,14 +78,14 @@ body, html {
   justify-content: space-between;
 }
 .chargement-page__items--one {
-  background-color: #9356DC;
+  background-color: var(--violet);
 }
 .chargement-page__items--two {
-  background-color: #FF79DA;
+  background-color: var(--rose);
   animation-delay: 0.25s;
 }
 .chargement-page__items--three {
-  background-color: #99E2D0;
+  background-color: var(--vert-clair);
   animation-delay: 0.5s;
 }
 
